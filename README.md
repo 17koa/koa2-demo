@@ -1,11 +1,12 @@
 # koa2-demo
 
-这个项目是express风格的最新的Koa 2项目的示例，稍后会集成到koa-generator里，算是集成一些所谓的最佳实践吧
+这个项目是express风格的最新的Koa 2项目的示例，稍后会集成到[koa-generator](https://github.com/17koa/koa-generator)里，算是集成一些所谓的最佳实践吧
 
 ## Teck Stack
 
 - Koa 2
 - nodemon + runkoa（支持async/await，且不需关心babel）
+- pm2 for deployment（服务器部署）
 - express-style middlewares
   - koa-router
   - koa-views
