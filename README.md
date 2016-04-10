@@ -151,4 +151,6 @@ app.use(views(__dirname + '/views-ejs', {
 
 ## 推荐
 
+如果你喜欢express风格的生成，推荐[koa-generator](https://github.com/17koa/koa-generator)
+
 如果你喜欢babel + koa2可以参考[Minimal koa v2 boilerplate.](https://github.com/geekplux/koa2-boilerplate)
