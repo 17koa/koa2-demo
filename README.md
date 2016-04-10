@@ -95,6 +95,52 @@ app.use(views(__dirname + '/views-ejs', {
 }));
 ```
 
+## 目录结构
+
+```
+➜  koa2-demo git:(master) tree . -L 2
+.
+├── LICENSE
+├── README.md
+├── app.js
+├── bin
+│   ├── run
+│   └── www
+├── node_modules
+│   ├── co
+│   ├── debug
+│   ├── ejs
+│   ├── jade
+│   ├── koa
+│   ├── koa-bodyparser
+│   ├── koa-convert
+│   ├── koa-json
+│   ├── koa-logger
+│   ├── koa-onerror
+│   ├── koa-router
+│   ├── koa-static
+│   ├── koa-views
+│   ├── nodemon
+│   └── runkoa
+├── package.json
+├── public
+│   ├── images
+│   ├── javascripts
+│   └── stylesheets
+├── routes
+│   ├── index.js
+│   └── users.js
+├── views
+│   ├── error.jade
+│   ├── index.jade
+│   └── layout.jade
+└── views-ejs
+    ├── error.ejs
+    └── index.ejs
+
+24 directories, 13 files
+```
+
 ## 推荐
 
 如果你喜欢babel + koa2可以参考[Minimal koa v2 boilerplate.](https://github.com/geekplux/koa2-boilerplate)
