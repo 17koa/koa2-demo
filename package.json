@@ -1,6 +1,6 @@
 {
   "name": "koa2-demo",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "private": true,
   "scripts": {
     "start":    "./node_modules/.bin/nodemon bin/run",
