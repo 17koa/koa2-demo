@@ -18,15 +18,14 @@ app.use(convert(json()));
 app.use(convert(logger()));
 app.use(convert(require('koa-static')(__dirname + '/public')));
 
-app.use(convert(views('views', {
-  root: __dirname + '/views',
-  default: 'jade'
+app.use(convert(views(__dirname + '/views', {
+  extension: 'jade'
 })));
 
-app.use(co.wrap(function *(ctx, next){
-  ctx.render = co.wrap(ctx.render);
-  yield next();
-}));
+// app.use(convert(views(__dirname + '/views-ejs', {
+//   extension: 'ejs'
+// })));
+
 
 // logger
 app.use(async (ctx, next) => {
@@ -43,6 +42,7 @@ app.use(router.routes(), router.allowedMethods());
 // response
 
 app.on('error', function(err, ctx){
+  console.log(err)
   log.error('server error', err, ctx);
 });
 
