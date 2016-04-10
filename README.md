@@ -31,11 +31,7 @@ Koa 2是一个 middleware framework, 它提供了 3 种不同类型的中间件�
 [List of supported engines](https://github.com/tj/consolidate.js#supported-template-engines)
 
 
-需要注意的koa2使用的koa-views也是下一版本的，
-
-```
-npm install koa-views@next
-```
+需要注意的koa2使用的koa-views也是下一版本的koa-views@next，当前项目已经处理过了，不需要再处理的，哈哈
 
 
 ### jade 
