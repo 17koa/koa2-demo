@@ -1,6 +1,6 @@
 # koa2-demo
 
-这个项目是express风格的最新的Koa 2项目的示例，稍后会集成到[koa-generator](https://github.com/17koa/koa-generator)里，算是集成一些所谓的最佳实践吧
+这个项目是express风格的最新的Koa 2项目的示例，已集成到[koa-generator](https://github.com/17koa/koa-generator)里，算是集成一些所谓的最佳实践吧
 
 ## Teck Stack
 
