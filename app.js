@@ -18,13 +18,13 @@ app.use(convert(json()));
 app.use(convert(logger()));
 app.use(convert(require('koa-static')(__dirname + '/public')));
 
-app.use(convert(views(__dirname + '/views', {
+app.use(views(__dirname + '/views', {
   extension: 'jade'
-})));
+}));
 
-// app.use(convert(views(__dirname + '/views-ejs', {
+// app.use(views(__dirname + '/views-ejs', {
 //   extension: 'ejs'
-// })));
+// }));
 
 
 // logger

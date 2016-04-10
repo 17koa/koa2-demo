@@ -43,9 +43,9 @@ npm i -S jade
 in app.js
 
 ```
-app.use(convert(views(__dirname + '/views', {
+app.use(views(__dirname + '/views', {
   extension: 'jade'
-})));
+}));
 ```
 
 ### ejs
@@ -57,8 +57,8 @@ npm i -S ejs
 in app.js
 
 ```
-app.use(convert(views(__dirname + '/views-ejs', {
+app.use(views(__dirname + '/views-ejs', {
   extension: 'ejs' 
-})));
+}));
 ```
 
