@@ -141,6 +141,14 @@ app.use(views(__dirname + '/views-ejs', {
 24 directories, 13 files
 ```
 
+说明
+
+- bin/run(runkoa执行bin/www)
+- bin/www是常规koa启动文件，和express的一样
+- views是放默认的jade文件
+- views-ejs是放ejs文件
+
+
 ## 推荐
 
 如果你喜欢babel + koa2可以参考[Minimal koa v2 boilerplate.](https://github.com/geekplux/koa2-boilerplate)
