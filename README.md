@@ -2,7 +2,7 @@
 
 这个项目是express风格的最新的Koa 2项目的示例，已集成到[koa-generator](https://github.com/17koa/koa-generator)里，算是集成一些所谓的最佳实践吧
 
-## Teck Stack
+## Tech Stack
 
 - Koa 2
 - nodemon + runkoa（支持async/await，且不需关心babel）
