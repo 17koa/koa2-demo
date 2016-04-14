@@ -5,7 +5,7 @@
     "start":    "./node_modules/.bin/nodemon bin/run",
     "koa":      "./node_modules/.bin/runkoa bin/www",
     "pm2":      "pm2 start bin/run ",
-    "test":     "echo \"Error: no test specified\" && exit 1"
+    "test":     "./node_modules/.bin/mocha -u bdd"
   },
   "dependencies": {
     "co": "^4.6.0",
@@ -20,9 +20,12 @@
     "koa-router": "^7.0.0",
     "koa-static": "^1.5.2",
     "koa-views": "^5.0.1",
-    "runkoa": "^1.4.0"
+    "runkoa": "^1.5.1"
   },
   "devDependencies": {
-    "nodemon": "^1.8.1"
+    "mocha": "^2.4.5",
+    "nodemon": "^1.9.1",
+    "should": "^8.3.0",
+    "supertest": "^1.2.0"
   }
 }
