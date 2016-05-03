@@ -20,7 +20,7 @@
     "koa-router": "^7.0.0",
     "koa-static": "^1.5.2",
     "koa-views": "^5.0.1",
-    "runkoa": "^1.5.1"
+    "runkoa": "^1.5.2"
   },
   "devDependencies": {
     "mocha": "^2.4.5",
